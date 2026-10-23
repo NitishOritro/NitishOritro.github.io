@@ -12,19 +12,15 @@ python -m http.server 8000
 # → http://localhost:8000
 ```
 
-## Free hosting on GitHub Pages
+## Hosting
 
-1. Push this repository to GitHub (e.g. `NitishOritro/nitish.ranjan`).
-2. On GitHub: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: **main**, folder: **/ (root)** → **Save**
-3. After a minute the site is live at
-   `https://nitishoritro.github.io/nitish.ranjan/`
+Served free by GitHub Pages from the `NitishOritro.github.io` repository:
 
-To get the shorter `https://nitishoritro.github.io/` URL instead, rename the
-repository to `NitishOritro.github.io`.
+**https://nitishoritro.github.io/**
 
-Every `git push` to `main` redeploys automatically.
+Pages is configured under **Settings → Pages** (Source: *Deploy from a branch*,
+branch `main`, folder `/ (root)`). Every `git push` to `main` redeploys
+automatically within a minute or two.
 
 ## Editing content
 
